@@ -1,0 +1,55 @@
+# Data
+data_name: 'yelp'
+data_dir: 'data/'
+train_ratio: 0.6
+test_ratio: 0.33
+save_dir: './pytorch_models/'
+
+# Model
+model: 'GDN'
+multi_relation: 'GNN'
+
+
+# Model architecture
+emb_size: 64
+
+thres: 0.2
+
+seed: 42
+
+# Run multiple times with different random seeds
+# seed:
+    # - 42
+    # - 448
+    # - 854
+    # - 29493
+    # - 88867
+
+
+# hyper-parameters
+optimizer: 'adam'
+lr_1: 0.001
+lr_2: 0.00001
+weight_decay: 0.001
+weight_decay_2: 0.1
+batch_size: 1024
+test_batch_size: 1024
+num_epochs: 101
+valid_epochs: 5
+
+add_constraint: True
+Beta: 0.1
+    # - 0.1
+    # - 0.5
+    # - 1
+    # - 2
+
+topk: 10
+    # - 6
+    # - 12
+    # - 18
+    # - 24
+biased_split: False
+# Device
+no_cuda: True
+cuda_id: '2'
