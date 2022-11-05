@@ -8,7 +8,7 @@ This work solves the SDS problem from a feature view. We observe that the hetero
 homophily. Since different labels correspond to the difference of critical anomaly features which make great contributions to the GAD, we tease out the anomaly features on which we constrain to mitigate the effect of heterophilous neighbors and make them invariant. To better estimate the prior distribution of anomaly features, we devise a prototype vector to infer and update this distribution during training. For normal nodes, we constrain the remaining features to preserve the connectivity of
 nodes and reinforce the influence of the homophilous neighborhood.
 
-<figure> <img src="figures/topology.pdf" height="220"></figure>
+<figure> <img src="figures/topology.png" height="220"></figure>
 Illustration of GDN. The feature separation module
 separates the node feature into two sets. Two constraints
 are leveraged to assist separation. Blank positions in node
