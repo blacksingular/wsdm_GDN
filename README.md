@@ -5,10 +5,12 @@ Alleviating Structrual Distribution Shift in Graph Anomaly Detection (WSDM 2023)
 
 # Overview
 This work solves the SDS problem from a feature view. We observe that the heterophily degree is different across the training and test environments in GAD, leading to the poor generalization of the classifier. To address the issue, we propose GDN to resist high heterophily for anomalies meanwhile benefit the learning of normals from
-homophily. Since different labels correspond to the difference of critical anomaly features which make great contributions to the GAD, we tease out the anomaly features on which we constrain to mitigate the effect of heterophilous neighbors and make them invariant. To better estimate the prior distribution of anomaly features, we devise a prototype vector to infer and update this distribution during training. For normal nodes, we constrain the remaining features to preserve the connectivity of
-nodes and reinforce the influence of the homophilous neighborhood.
+homophily. Since different labels correspond to the difference of critical anomaly features which make great contributions to the GAD, we tease out the anomaly features on which we constrain to mitigate the effect of heterophilous neighbors and make them invariant. To better estimate the prior distribution of anomaly features, we devise a prototype vector to infer and update this distribution during training. For normal nodes, we constrain the remaining features to preserve the connectivity of nodes and reinforce the influence of the homophilous neighborhood.
 
+<h2 align="center">
 <figure> <img src="figures/topology.png" height="300"></figure>
+</h2>
+
 Illustration of GDN. The feature separation module
 separates the node feature into two sets. Two constraints
 are leveraged to assist separation. Blank positions in node
