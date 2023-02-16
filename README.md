@@ -42,3 +42,14 @@ Our code references:
 - [CAREGNN](https://github.com/YingtongDou/CARE-GNN)
 
 - [PCGNN](https://github.com/PonderLY/PC-GNN)
+
+# Reference 
+```
+@inproceedings{
+    gao2023gdn,
+    title={Alleviating Structrual Distribution Shift in Graph Anomaly Detection},
+    author={Yuan Gao, Xiang Wang, Xiangnan He, Zhenguang Liu, Huamin Feng, Yongdong Zhang},
+    booktitle={WSDM},
+    year={2023},
+}
+```
