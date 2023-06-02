@@ -48,7 +48,7 @@ Our code references:
 @inproceedings{
     gao2023gdn,
     title={Alleviating Structrual Distribution Shift in Graph Anomaly Detection},
-    author={Yuan Gao, Xiang Wang, Xiangnan He, Zhenguang Liu, Huamin Feng, Yongdong Zhang},
+    author={Yuan Gao and Xiang Wang and Xiangnan He and Zhenguang Liu and Huamin Feng and Yongdong Zhang},
     booktitle={WSDM},
     year={2023},
 }
